@@ -1,0 +1,44 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: know bot
+  steps:
+  - user: |
+      hello there!
+    intent: greet
+  - action: utter_greet
+  - user: |
+      Tell me about yourself
+    intent: Asking_Who_are_you
+  - action: utter_about_itself
+
+- story: Scheme
+  steps:
+  - user: |
+      hello there!
+    intent: greet
+  - action: utter_greet
+  - user: |
+      Tell me the agricultural schemes you know
+    intent: asking_schemes
+  - action: utter_Schemes
+  - user: |
+      bye-bye!
+    intent: goodbye
+  - action: utter_goodbye
+
+- story: Direct scheme
+  steps:
+  - user: |
+      Tell me the agricultural schemes you know
+    intent: asking_schemes
+  - action: utter_Schemes
+  - user: |
+      How can you be of service?
+    intent: Asking_capabilities
+  - action: utter_about_itself
+  - user: |
+      thank you
+    intent: greatful
+  - action: utter_pleasure

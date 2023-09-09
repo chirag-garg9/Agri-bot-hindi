@@ -1,0 +1,146 @@
+[
+  {
+    "text": "क्या आप Paramparagat Krishi Vikas Yojana (PKVY) को समझा सकते हैं?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 47,
+        "value": "Paramparagat Krishi Vikas Yojana (PKVY)",
+        "entity": "scheme_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Pradhan Mantri Fasal Bima Yojana (PMFBY) के लाभ क्या हैं?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 40,
+        "value": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+        "entity": "scheme_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "National Mission For Sustainable Agriculture (NMSA) को मुझे समझाएं।",
+    "entities": [
+      {
+        "start": 0,
+        "end": 51,
+        "value": "National Mission For Sustainable Agriculture (NMSA)",
+        "entity": "scheme_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Animal Husbandry Infrastructure Development Fund (AHIDF) विवरण, कृपया।",
+    "entities": [
+      {
+        "start": 0,
+        "end": 56,
+        "value": "Animal Husbandry Infrastructure Development Fund (AHIDF)",
+        "entity": "scheme_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "मैं Pradhan Mantri Krishi Sinchai Yojana (PMKSY) के बारे में अधिक जानना चाहता हूँ।",
+    "entities": [
+      {
+        "start": 4,
+        "end": 48,
+        "value": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY)",
+        "entity": "scheme_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "क्या आप Kisan Credit Card (KCC) के बारे में जानकारी प्रदान कर सकते हैं?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 31,
+        "value": "Kisan Credit Card (KCC)",
+        "entity": "scheme_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Paramparagat Krishi Vikas Yojana (PKVY) के उद्देश्य को समझाएं।",
+    "entities": [
+      {
+        "start": 0,
+        "end": 39,
+        "value": "Paramparagat Krishi Vikas Yojana (PKVY)",
+        "entity": "scheme_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Pradhan Mantri Fasal Bima Yojana (PMFBY) के लिए कोई पूर्व-आवश्यकताएँ हैं?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 40,
+        "value": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+        "entity": "scheme_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "किसान National Mission For Sustainable Agriculture (NMSA) के लाभ कैसे प्राप्त कर सकते हैं?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 57,
+        "value": "National Mission For Sustainable Agriculture (NMSA)",
+        "entity": "scheme_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Animal Husbandry Infrastructure Development Fund (AHIDF) के कुंदपालन उद्यमियों को किस प्रकार की सफलता की कुछ कहानियाँ हैं?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 56,
+        "value": "Animal Husbandry Infrastructure Development Fund (AHIDF)",
+        "entity": "scheme_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY) के उद्देश्य को समझाएं।",
+    "entities": [
+      {
+        "start": 0,
+        "end": 44,
+        "value": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY)",
+        "entity": "scheme_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY) के तहत सिंचाई बुनाई के क्षेत्र में सुधार होने से संबंधित कुंदपालन संचालन को समझाएं।",
+    "entities": [
+      {
+        "start": 0,
+        "end": 44,
+        "value": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY)",
+        "entity": "scheme_name"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "text": "How is E-NAM transforming agricultural markets?",
+    "intent": "Inquire_schemes",
+    "intent_prediction": {
+      "name": "asking_schemes",
+      "confidence": 0.9998835325241089
+    }
+  }
+]

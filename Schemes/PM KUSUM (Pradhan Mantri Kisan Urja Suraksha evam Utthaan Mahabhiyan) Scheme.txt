@@ -1,0 +1,38 @@
+Purpose:
+The PM KUSUM Scheme aims to promote the use of renewable energy sources in agriculture and reduce the dependence on traditional fossil fuels. It primarily focuses on providing financial assistance to farmers for setting up solar power plants and solar pumps, thereby increasing their income and reducing carbon emissions.
+
+Objective:
+1. To enable farmers to generate their electricity through renewable energy sources.
+2. To provide a reliable and cost-effective source of irrigation for agricultural purposes.
+3. To reduce the carbon footprint of agriculture by replacing diesel pumps with solar-powered ones.
+4. To increase farmers' income by selling surplus solar power to the grid.
+
+Features:
+1. **Solar Pump Installation:** Under this scheme, farmers are encouraged to install solar-powered irrigation pumps to replace diesel or electric pumps. Subsidies are provided to cover a significant portion of the cost.
+
+2. **Solar Power Plants:** Farmers can set up solar power plants on their land or unused land, and they have the option to sell surplus electricity to the grid, providing an additional source of income.
+
+3. **Government Subsidy:** The government provides financial support in the form of subsidies to reduce the initial investment cost for installing solar pumps and power plants.
+
+4. **Component A, B, and C:** The scheme is divided into three components:
+   - Component A: Installation of 17.50 lakh standalone solar pumps.
+   - Component B: Solarization of 10 lakh grid-connected agricultural pumps.
+   - Component C: Installation of 50,000 grid-connected tube wells or pumps.
+
+Who are Eligible:
+1. **Farmers:** Small and marginal farmers who own cultivable land are eligible for the PM KUSUM scheme.
+
+2. **Farmer Groups:** Farmers can form groups and cooperatives to collectively apply for the scheme.
+
+3. **Agricultural Institutions:** Government agricultural institutions and other organizations involved in agriculture can also participate in the scheme.
+
+Document Required:
+To apply for the PM KUSUM Scheme, eligible beneficiaries typically need to submit the following documents:
+1. Aadhar card or other proof of identity.
+2. Land ownership documents or land lease agreement.
+3. Bank account details.
+4. Passport-sized photographs.
+5. Application form as prescribed by the concerned state/UT government.
+6. Any other documents as required by the implementing agency or state government.
+
+It's important to note that specific documentation requirements may vary from one state or union territory to another, so please check with their local authorities for precise details and procedures.

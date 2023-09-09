@@ -1,0 +1,191 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - नमस्ते
+    - नमस्ते
+     - नमस्ते
+     - नमस्ते
+     - शुभ प्रभात
+     - शुभ संध्या
+     - सुप्रभात
+     - सुनो
+     - चलो
+     - नमस्ते यार
+     - शुभ प्रभात
+     - शुभ संध्या
+     - शुभ दोपहर
+
+- intent: goodbye
+  examples: |
+    - फिर मिलते हैं
+    - अलविदा
+    - बाद में मिलते हैं
+    - शुभ रात्रि
+    - अलविदा
+    - अलविदा
+    - आपका दिन शुभ हो
+    - आपने आस - पास देखो
+    - अलविदा
+    - बाद में मिलते हैं
+
+- intent: affirm
+  examples: |
+   - हाँ
+    - हां
+    - वास्तव में
+    - बिल्कुल
+    - यह अच्छा रहेगा
+    - सही
+
+- intent: Inquire_schemes
+  examples: |
+    - कृपया [Agri Infrastructure Fund Scheme](scheme_name) के बारे में मुझे बताएं।
+    - [AIF- Scheme](scheme_name) को मुझे समझाएं।
+    - [PMFME Scheme](scheme_name) की विवरण दें।
+    - क्या आप [Gramin Bhandaran Yojana](scheme_name) के बारे में जानकारी प्रदान कर सकते हैं?
+    - [Kisan Credit Card](scheme_name) कैसे काम करता है?
+    - [PMKSY](scheme_name) विवरण, कृपया।
+    - [PM U–2013 KUSUM Scheme](scheme_name) के बारे में मुझे बताएं।
+    - मुझे [Deendayal Antyodaya Yojana- National Urban Livelihoods Mission](scheme_name) के बारे में और जानना है।
+    - क्या आप [Paramparagat Krishi Vikas Yojana (PKVY)](scheme_name) को समझा सकते हैं?
+    - [Pradhan Mantri Fasal Bima Yojana (PMFBY)](scheme_name) के लाभ क्या हैं?
+    - कृपया [PM Kisan Samman Nidhi Yojana](scheme_name) के विवरण प्रदान करें।
+    - [Micro Irrigation Fund scheme](scheme_name) के लिए मैं कैसे आवेदन कर सकता हूँ?
+    - [E-NAM](scheme_name) प्लेटफ़ॉर्म के बारे में बताएं।
+    - [National Mission For Sustainable Agriculture (NMSA)](scheme_name) को मुझे समझाएं।
+    - [Prime Minister’s Employment Generation Programme](scheme_name) के लिए पात्रता मानदंड क्या हैं?
+    - [Animal Husbandry Infrastructure Development Fund (AHIDF)](scheme_name) विवरण, कृपया।
+    - [Gramin Bhandaran Yojana](scheme_name) किसानों को कैसे समर्थन प्रदान करता है?
+    - मैं [Pradhan Mantri Krishi Sinchai Yojana (PMKSY)](scheme_name) के बारे में अधिक जानना चाहता हूँ।
+    - क्या आप [Kisan Credit Card (KCC)](scheme_name) के बारे में जानकारी प्रदान कर सकते हैं?
+    - [Micro Irrigation Fund scheme](scheme_name) का उद्देश्य क्या है?
+    - [PM U–2013 KUSUM Scheme](scheme_name) किसानों को कैसे लाभ पहुँचाता है?
+    - मुझे [Deendayal Antyodaya Yojana- National Urban Livelihoods Mission](scheme_name) के बारे में और जानकारी चाहिए।
+    - [Paramparagat Krishi Vikas Yojana (PKVY)](scheme_name) के उद्देश्य को समझाएं।
+    - [Pradhan Mantri Fasal Bima Yojana (PMFBY)](scheme_name) के लिए कोई पूर्व-आवश्यकताएँ हैं?
+    - [PM Kisan Samman Nidhi Yojana](scheme_name) के लिए आवेदन प्रक्रिया में मुझे मार्गदर्शन करें।
+    - [Micro Irrigation Fund scheme](scheme_name) के सफलता के कुछ कहानियाँ दें।
+    - [E-NAM](scheme_name) प्लेटफ़ॉर्म के कवरेज क्षेत्रों के बारे में बताएं।
+    - किसान [National Mission For Sustainable Agriculture (NMSA)](scheme_name) के लाभ कैसे प्राप्त कर सकते हैं?
+    - [Prime Minister’s Employment Generation Programme](scheme_name) द्वारा किसी विशेष क्षेत्र का समर्थन किया जाता है?
+    - [Animal Husbandry Infrastructure Development Fund (AHIDF)](scheme_name) के कुंदपालन उद्यमियों को किस प्रकार की सफलता की कुछ कहानियाँ हैं?
+    - [Pradhan Mantri Krishi Sinchai Yojana (PMKSY)](scheme_name) के उद्देश्य को समझाएं।
+    - [Pradhan Mantri Krishi Sinchai Yojana (PMKSY)](scheme_name) के तहत सिंचाई बुनाई के क्षेत्र में सुधार होने से संबंधित कुंदपालन संचालन को समझाएं।
+
+- lookup: scheme_name
+  examples: |
+    - Agri Infrastructure Fund Scheme
+    - AIF- Scheme
+    - Animal Husbandry Infrastructure Development Fund
+    - AHIDF
+    - PM Formalization of Micro Food Processing Enterprises Scheme
+    - PMFME Scheme
+    - PM KUSUM Scheme
+    - Deendayal Antyodaya Yojana- National Urban Livelihoods Mission
+    - DAY- NULM
+    - Prime Minister’s Employment Generation Programme
+    - PMEGP
+    - Pradhan Mantri Krishi Sinchai Yojana
+    - PMKSY
+    - Paramparagat Krishi Vikas Yojana
+    - PKVY
+    - Pradhan Mantri Fasal Bima Yojana
+    - PMFBY
+    - Gramin Bhandaran Yojana
+    - PM Kisan Samman Nidhi Yojana
+    - Micro Irrigation Fund scheme
+    - E-NAM
+    - Kisan Credit Card
+    - KCC
+    - National Mission For Sustainable Agriculture
+    - NMSA
+
+
+- intent: Asking_Who_are_you
+  examples: |
+    -क्या मैं आपकी पहचान जान सकता हूँ?
+    -क्या आप कृपया अपना परिचय दे सकते हैं?
+    -मैं जिससे बात कर रहा हूं?
+    -क्या आप मुझे अपने बारे में कुछ बता सकते हैं?
+    -तुम्हारा नाम क्या है?
+    -कृपया अपनी पहचान बताएं।
+    -आप वास्तव में कौन हैं?
+    -क्या मैं पूछ सकता हूँ कि मैं किससे बात कर रहा हूँ?
+    -आपका नाम और पृष्ठभूमि क्या है?
+    -मुझे थोड़ा बताओ कि तुम कौन हो?
+    -क्या आप अपने बारे में कुछ जानकारी दे सकते हैं?
+    -मैं आपकी पहचान जानने को उत्सुक हूं. साझा करने के लिए परवाह?
+    -कृपया अपना नाम और विवरण साझा करें।
+    -क्या कहकर बुलाऊँ तुम्हें?
+    -क्या आप मेरे लिए अपनी पहचान स्पष्ट कर सकते हैं?
+    -मुझे तुम्हें थोड़ा और अच्छे से जानने दो।
+    -इस नाम से कौन जाता है?
+    -क्या आप अपनी पृष्ठभूमि पर कुछ प्रकाश डाल सकते हैं?
+    -आपकी कहानी क्या है?
+    -अगर आपको कोई आपत्ति न हो तो अपना परिचय दें।
+
+- intent: Asking_capabilities
+  examples: |
+    -आप क्या सहायता प्रदान कर सकते हैं?
+    -आप कैसे सेवा कर सकते हैं?
+    -आप किस तरह से मेरी सहायता कर सकते हैं?
+    -मैं आपसे किस सहयोग की उम्मीद कर सकता हूं?
+    -आप कैसे मदद कर सकते हैं?
+    -आप मेरी सहायता के लिए क्या कर सकते हैं?
+    -आप किस प्रकार सहायता प्रदान करने में सक्षम हैं?
+    -मेरी मदद करने के लिए आपके पास क्या संसाधन हैं?
+    -आप मुझे समर्थन देने के लिए क्या पेशकश कर सकते हैं?
+    -आप किस प्रकार की सहायता प्रदान करने में सक्षम हैं?
+    -आप मेरे लिए कैसे फायदेमंद हो सकते हैं?
+    -आप किस तरह से मेरी जरूरतों में योगदान दे सकते हैं?
+    -तुम मेरे कैसे काम आ सकते हो?
+    -मैं आप पर क्या भरोसा कर सकता हूं?
+    -आप किन तरीकों से मदद कर सकते हैं?
+    -आप मेरी स्थिति में कैसे सहायता कर सकते हैं?
+    -समर्थक बनने के लिए आप क्या कर सकते हैं?
+    -आप मेरे लिए संसाधन कैसे बन सकते हैं?
+    -सहायता के संदर्भ में आप मेज पर क्या लाते हैं?
+    -मेरी सहायता के लिए आपके पास क्या साधन हैं?
+
+- intent: asking_schemes
+  examples: |
+    -क्या आप विभिन्न कृषि योजनाओं का वर्णन कर सकते हैं?
+    -मैं विभिन्न कृषि कार्यक्रमों के बारे में सुनना चाहूंगा। क्या आप कुछ साझा कर सकते हैं?
+    -कृपया विभिन्न कृषि पहलों के बारे में जानकारी प्रदान करें।
+    -क्या आप मुझे उन विभिन्न कृषि परियोजनाओं के बारे में बता सकते हैं जिनके बारे में आप जानते हैं?
+    -यदि आप चाहें तो विभिन्न कृषि योजनाओं के बारे में विवरण साझा करें।
+    -मुझे विभिन्न कृषि योजनाओं के बारे में जानने में दिलचस्पी है। क्या आप मुझे और बता सकते हैं?
+    -क्या आप मुझे विभिन्न कृषि कार्यक्रमों का एक सिंहावलोकन दे सकते हैं?
+    -मुझे विभिन्न कृषि योजनाओं के बारे में बताएं जो मौजूद हैं।
+    -मैं विभिन्न कृषि पहलों के बारे में जानने को उत्सुक हूं। आप मुझे क्या बता सकते हैं?
+    -क्या आप विभिन्न कृषि नीतियों और कार्यक्रमों पर प्रकाश डाल सकते हैं?
+    -यदि आप विभिन्न कृषि योजनाओं पर चर्चा कर सकें तो मुझे खुशी होगी।
+    -कृपया उपलब्ध विभिन्न कृषि कार्यक्रमों के बारे में विस्तार से बताएं।
+    -मैं कई कृषि योजनाओं के बारे में जानकारी इकट्ठा करना चाह रहा हूं।
+    -कृपया विभिन्न कृषि परियोजनाओं के बारे में अपना ज्ञान साझा करें।
+    -क्या आप कृषि योजनाओं की विविधता के बारे में जानकारी प्रदान कर सकते हैं?
+
+- intent: greatful
+  examples: |
+    - धन्यवाद!
+    - बहुत-बहुत धन्यवाद!
+    - आपका बहुत-बहुत धन्यवाद!
+    - बहुत धन्यवाद!
+    - बहुत सराहना की!
+    - बहुत - बहुत धन्यवाद!
+    - मैं इसकी सराहना करता हूं!
+    - मैं आभारी हूं!
+    - बहुत बहुत धन्यवाद!
+    - आप एक जीवनरक्षक हैं!
+    - मैं आपका आभारी हूं!
+    - मैं आपको पर्याप्त धन्यवाद नहीं दे सकता!
+    - आप बहुत दयालु हैं!
+    - मैं आपकी मदद के लिए आभारी हूं।
+    - मैं इसके लिए बहुत आभारी हूं।
+    - तुम बहुत दयालु हो!
+    - अनेक अनेक धन्यवाद!
+    - मैं गहराई से आभारी हूँ.
+    -आपने बड़ी मदद की है!
+    - मैं आपका आभारी हूं।

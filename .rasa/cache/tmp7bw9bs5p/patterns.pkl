@@ -1,0 +1,6 @@
+[
+  {
+    "name": "scheme_name",
+    "pattern": "(\\bAgri\\ Infrastructure\\ Fund\\ Scheme\\b|\\bAIF\\-\\ Scheme\\b|\\bAnimal\\ Husbandry\\ Infrastructure\\ Development\\ Fund\\b|\\bAHIDF\\b|\\bPM\\ Formalization\\ of\\ Micro\\ Food\\ Processing\\ Enterprises\\ Scheme\\b|\\bPMFME\\ Scheme\\b|\\bPM\\ KUSUM\\ Scheme\\b|\\bDeendayal\\ Antyodaya\\ Yojana\\-\\ National\\ Urban\\ Livelihoods\\ Mission\\b|\\bDAY\\-\\ NULM\\b|\\bPrime\\ Minister’s\\ Employment\\ Generation\\ Programme\\b|\\bPMEGP\\b|\\bPradhan\\ Mantri\\ Krishi\\ Sinchai\\ Yojana\\b|\\bPMKSY\\b|\\bParamparagat\\ Krishi\\ Vikas\\ Yojana\\b|\\bPKVY\\b|\\bPradhan\\ Mantri\\ Fasal\\ Bima\\ Yojana\\b|\\bPMFBY\\b|\\bGramin\\ Bhandaran\\ Yojana\\b|\\bPM\\ Kisan\\ Samman\\ Nidhi\\ Yojana\\b|\\bMicro\\ Irrigation\\ Fund\\ scheme\\b|\\bE\\-NAM\\b|\\bKisan\\ Credit\\ Card\\b|\\bKCC\\b|\\bNational\\ Mission\\ For\\ Sustainable\\ Agriculture\\b|\\bNMSA\\b)"
+  }
+]

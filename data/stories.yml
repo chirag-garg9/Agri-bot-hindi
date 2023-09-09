@@ -1,0 +1,49 @@
+version: "2.8"
+
+stories:
+
+- story: Knowing_about_bot
+  steps:
+  - action: Initial
+  - intent: greet/s
+  - action: utter_greet
+  - intent: Asking_Who_are_you
+  - action: utter_about_itself
+  - intent: scheme_name
+  - action: utter_Schemes
+
+- story: capabilities_known
+  steps:
+  - action: Initial
+  - intent: greet
+  - action: utter_greet
+  - intent: Asking_capabilities
+  - action: utter_What_can_i_do
+  - intent: asking_schemes
+  - action: utter_Schemes
+
+- story: capabilities_known
+  steps:
+  - action: Initial
+  - intent: asking_schemes
+  - action: utter_Schemes
+  - intent: greatful
+  - action: utter_pleasure
+
+- story: capabilities_known
+  steps:
+  - action: Initial
+  - intent: asking_schemes
+  - action: utter_Schemes
+  - intent: greatful
+  - action: utter_pleasure
+
+- story: capabilities_known 2
+  steps:
+  - intent: asking_schemes
+  - action: utter_Schemes
+  
+- story: capabilities_known 1
+  steps:
+  - intent: asking_schemes
+  - action: utter_Schemes

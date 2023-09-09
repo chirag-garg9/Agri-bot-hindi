@@ -1,0 +1,30 @@
+version: '2.8'
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Give details
+  steps:
+  - intent: Inquire_schemes
+  - action: Scheme_details
+
+- rule: Ask scheme
+  steps:
+  - intent: asking_schemes
+  - action: utter_Schemes
+
+- rule: Tell about bot
+  steps:
+  - intent: Asking_Who_are_you
+  - action: utter_about_itself
+
+- rule: capabilities.
+  steps:
+  - intent: Asking_capabilities
+  - action: utter_What_can_i_do
+
+
